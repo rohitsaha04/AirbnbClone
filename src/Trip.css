@@ -1,0 +1,75 @@
+
+.main-scroll-div-trip{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 65px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.cover{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.cover::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+}
+.scroll-images-trip{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.child{
+    min-width: 70px;
+    height: 450px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    overflow: hidden;
+}
+.scroll-images::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child-img{
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.img{
+    border-radius: 20px;
+    height: 320px;
+}
+.img-title-trip{
+    font-weight: 350;
+}
+.from{
+    margin-top: 2px;
+}
+.person{
+    font-weight: 300;
+    font-size: 15px;
+}

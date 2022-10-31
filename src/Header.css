@@ -1,0 +1,32 @@
+.head {
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.arrow-right {
+    position: relative;
+    text-align: right;
+    margin-bottom: 30px;
+    margin-right: -30px;
+}
+
+.arrow-left {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.arrow-main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.icon{
+    border-radius: 50%;
+    background: transparent;
+}
